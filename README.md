@@ -6,8 +6,10 @@
 - Uninstall
 
 - Remove all installed packages
-`brew remove --force $(brew list) --ignore-dependencies`
-`brew cleanup`
+```python
+brew remove --force $(brew list) --ignore-dependencies
+brew cleanup
+```
 
 # Macports
 - Install
