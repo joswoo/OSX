@@ -8,8 +8,11 @@
 ## Homebrew
 - Install
 > $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 > $ brew update
+
 > $ vi ~/.bash_profile
+
 Add this below code
 ```
 # Homebrew
@@ -22,8 +25,10 @@ export PATH=/usr/local/bin:$PATH
 
 - Remove all installed packages
 > $ brew remove --force $(brew list) --ignore-dependencies
+
 > $ brew cleanup
 
 ## Install Python
 > $ brew install python
+
 > $ brew linkapps python
