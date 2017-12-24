@@ -2,8 +2,8 @@
 
 ## Install Xcode
 - After Install
-> $ sudo xcodebuild -license
-> $ sudo xcode-select --install
+``` $ sudo xcodebuild -license```
+``` $ sudo xcode-select --install```
 
 ## 1. Homebrew
 - Install
