@@ -127,6 +127,7 @@ $ cd [GO TO THE FOLDER YOU'RE WORKING ON]
     http://`localhost:8888`/~~~~~~~
 
 2.In a new terminal, establish a SSH tunnel between your local machine and the remote server. 
+
 Please match the notebook with `localhost:`
 ```
 $ ssh -N -L localhost:8888:localhost:8888 [ID]@[SERVER ADDRESS]
