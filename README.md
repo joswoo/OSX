@@ -123,17 +123,14 @@ $ cd [GO TO THE FOLDER YOU'RE WORKING ON]
 [GO TO THE FOLDER YOU'RE WORKING ON] $ jupyter notebook --no-browser
 ```
 
->  Copy/paste this URL into your browser when you connect for the first time,
-    to login with a token:
-        http://localhost:8888/~~~~~~~
+> Look at this window
+    http://`localhost:8888`/~~~~~~~
 
 2.In a new terminal, establish a SSH tunnel between your local machine and the remote server. 
+Please match the notebook with `localhost:`
 ```
 $ ssh -N -L localhost:8888:localhost:8888 [ID]@[SERVER ADDRESS]
 ```
-
-Please match the notebook with localhost:
-
 Type your password and keep this window opened.
 
 In a web browse and open the address provided by the notebook.
