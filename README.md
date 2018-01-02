@@ -19,7 +19,7 @@
 Add this below code
 
 > # Homebrew
-export PATH=/usr/local/bin:$PATH
+> export PATH=/usr/local/bin:$PATH
 
         $ source ~/.bash_profile
 
