@@ -22,10 +22,9 @@
     export PATH=/usr/local/bin:$PATH
     ```
     After save and quit
-                
-        ```
+    
         $ source ~/.bash_profile
-        ```
+
 - Uninstall
         
         $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
