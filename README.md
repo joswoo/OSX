@@ -16,15 +16,16 @@
 
         $ vi ~/.bash_profile
 
-Add this below code
-```
-# Homebrew
-export PATH=/usr/local/bin:$PATH
-```
-After save and quit
+⋅⋅⋅Add this below code
+⋅⋅⋅```
+⋅⋅⋅# Homebrew
+⋅⋅⋅export PATH=/usr/local/bin:$PATH
+⋅⋅⋅```
+⋅⋅⋅After save and quit
                 
-        $ source ~/.bash_profile
-
+⋅⋅⋅```
+⋅⋅⋅$ source ~/.bash_profile
+⋅⋅⋅```
 - Uninstall
         
         $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
