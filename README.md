@@ -23,7 +23,7 @@ Add this below code
 ```
 After save and quit
                 
-        $ source ~/.bash_profile
+⋅⋅⋅```$ source ~/.bash_profile```
 
 - Uninstall
         
