@@ -18,9 +18,11 @@
 
 Add this below code
 
-> # Homebrew
-> export PATH=/usr/local/bin:$PATH
+        # Homebrew
+        export PATH=/usr/local/bin:$PATH
 
+After save and quit
+                
         $ source ~/.bash_profile
 
 - Uninstall
