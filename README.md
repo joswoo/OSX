@@ -88,8 +88,14 @@ Check the pip version
 ## 4. OpenCV
 
         $ brew install opencv3 --with-contrib --with-python2 --without-python
+        $ pip install -U numpy
 
         $ brew install opencv3 --with-contrib --with-python3 --without-python
+        $ pip3 install -U numpy
+        
+        $ python
+        > >> import cv2
+        > >> cv2.__version__
 
 ## 5. TensorFlow
 - Install
