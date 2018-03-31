@@ -132,7 +132,7 @@ Check the pip version
         
 ## Virtualenv
 
-        $ virtualenv -p python3 이름
+        $ virtualenv -p python3 이름
         
         $ vi ~/.zshrc
         
