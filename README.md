@@ -7,7 +7,7 @@
 
         $ sudo xcode-select --install
 
-## 1. Homebrew
+## Homebrew
 - Install
         
         $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -35,7 +35,7 @@
 
         $ brew cleanup
 
-## 2. Python
+## Python
 
         $ brew install python2
 
@@ -79,13 +79,13 @@ Check the pip version
 
         $ pip3 -V
 
-## 3. Numpy
+## Numpy
 
         $ pip2 install numpy
 
         $ pip3 install numpy
 
-## 4. OpenCV
+## OpenCV
 
         $ brew install opencv3 --with-contrib --with-python2 --without-python
         $ pip install -U numpy
@@ -97,7 +97,7 @@ Check the pip version
         > >> import cv2
         > >> cv2.__version__
 
-## 5. TensorFlow
+## TensorFlow
 - Install
 
         $  sudo easy_install --upgrade pip2
@@ -118,17 +118,27 @@ Check the pip version
 
         $ pip3 uninstall tensorflow
 
-## 6. iPython
+## iPython
 
         $ pip2 install ipython
 
         $ pip3 install ipython
 
-## 7. Jupyter
+## Jupyter
 
         $ pip2 install jupyter
 
         $ pip3 install jupyter
+        
+## Virtualenv
+
+        $ virtualenv -p python3 이름
+        
+        $ vi ~/.zshrc
+        
+        > 맨 아래에 추가 `alias 이름=". ~/이름/bin/activate"`
+        
+        
 
 ### Launch Jupyter over network
 
