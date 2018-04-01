@@ -136,8 +136,8 @@ Check the pip version
         
         $ vi ~/.zshrc
         
-        > 맨 아래에 추가 `alias 이름=". ~/이름/bin/activate"`
-        
+        > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
+        
         
 
 ### Launch Jupyter over network
