@@ -163,3 +163,27 @@ Please match the notebook with `localhost:`
 Type your password and keep this window opened.
 
 In a web browse and open the address provided by the notebook.
+
+### Screen
+
+        $ pip3 install screen
+        
+- Create Session
+
+        $ screen -S [Session name]
+        
+- Session list
+        
+        $ screen -list
+        
+- Enter the Session
+
+        $ screen -x [Session name]
+        
+- Leaving with open the Session 
+        
+        $ Ctrl+a,d
+        
+- Session close
+
+        $ Ctrl+a,\
