@@ -140,7 +140,7 @@ Check the pip version
         
         
 
-### Launch Jupyter over network
+## Launch Jupyter over network
 
 1. In a terminal, log in to the server and launch Jupyter notebook.
 
@@ -164,7 +164,9 @@ Type your password and keep this window opened.
 
 In a web browse and open the address provided by the notebook.
 
-### Screen
+
+
+## Screen
 
 - Install screen
 
@@ -189,5 +191,7 @@ In a web browse and open the address provided by the notebook.
 - Session close
 
 > Ctrl+a,\
+        
+        
         
         
