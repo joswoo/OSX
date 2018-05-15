@@ -166,6 +166,8 @@ In a web browse and open the address provided by the notebook.
 
 ### Screen
 
+- Install screen
+
         $ pip3 install screen
         
 - Create Session
@@ -182,8 +184,10 @@ In a web browse and open the address provided by the notebook.
         
 - Leaving with open the Session 
         
-        $ Ctrl+a,d
+        > Ctrl+a,d
         
 - Session close
 
-        $ Ctrl+a,\
+        > Ctrl+a,\
+        
+        
