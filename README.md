@@ -95,7 +95,9 @@ or
 edit `.bashrc` or `.zshrc` 
         
         $ vi ~/.zshrc
-        
+
+add below code
+
 ``` python
 # python virtualenv settings
 export WORKON_HOME=~/.virtualenvs
