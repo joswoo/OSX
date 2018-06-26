@@ -78,6 +78,35 @@ Check the pip version
         $ pip2 -V
 
         $ pip3 -V
+        
+
+## Virtualenv
+
+https://beomi.github.io/2016/12/28/HowToSetup-Virtualenv-VirtualenvWrapper/
+
+        $ virtualenv -p python3 이름
+        
+        $ vi ~/.zshrc
+        
+or
+        
+        $ mkvirtualenv 이름
+        
+edit `.bashrc` or `.zshrc` 
+        
+        $ vi ~/.zshrc
+        
+        ``` python
+        # python virtualenv settings
+        export WORKON_HOME=~/.virtualenvs
+        export VIRTUALENVWRAPPER_PYTHON="$(which python3)"  # Usage of python3
+        source /usr/local/bin/virtualenvwrapper.sh
+        ```
+        
+        $ workon 이름
+        
+        Auto workon
+        > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
 
 ## Numpy
 
@@ -129,14 +158,6 @@ Check the pip version
         $ pip2 install jupyter
 
         $ pip3 install jupyter
-        
-## Virtualenv
-
-        $ virtualenv -p python3 이름
-        
-        $ vi ~/.zshrc
-        
-        > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
         
         
 
