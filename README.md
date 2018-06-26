@@ -123,9 +123,19 @@ Auto workon > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
         $ brew install opencv3 --with-contrib --with-python3 --without-python
         $ pip3 install -U numpy
         
-        $ python
+Add OpenCV's site-packages path to global site-packages
+
+        $ echo /usr/local/opt/opencv/lib/python3.6/site-packages >> /usr/local/lib/python3.6/site-packages/opencv3.pth
+        
+        $ python3
         > >> import cv2
         > >> cv2.__version__
+        
+Symlink in vitrualenv
+
+        $ cd ~/.virtualenvs/이름/lib/python3.6/site-packages/
+
+        $ ln -s /usr/local/opt/opencv3/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so cv2.so
 
 ## TensorFlow
 - Install
