@@ -86,7 +86,7 @@ https://beomi.github.io/2016/12/28/HowToSetup-Virtualenv-VirtualenvWrapper/
 
         $ virtualenv -p python3 이름
         
-        $ vi ~/.zshrc
+        $ source 이름/bin/activate
         
 or
         
@@ -96,17 +96,16 @@ edit `.bashrc` or `.zshrc`
         
         $ vi ~/.zshrc
         
-        ``` python
-        # python virtualenv settings
-        export WORKON_HOME=~/.virtualenvs
-        export VIRTUALENVWRAPPER_PYTHON="$(which python3)"  # Usage of python3
-        source /usr/local/bin/virtualenvwrapper.sh
-        ```
+``` python
+# python virtualenv settings
+export WORKON_HOME=~/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON="$(which python3)"  # Usage of python3
+source /usr/local/bin/virtualenvwrapper.sh
+```
         
         $ workon 이름
         
-        Auto workon
-        > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
+Auto workon > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
 
 ## Numpy
 
