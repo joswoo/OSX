@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mac Setting"
-title_separator          : "-"
-name                     : "joswoo"
-description              : "OSX termenal Setting"
-url                      : "https://joswoo.github.io"       # the base hostname & protocol for your site e.g. 
-baseurl                  : "/OSX"                      # the subpath of your site, e.g. 
-repository               : # GitHub username/repo-name e.g.  "joswoo/OSX"
-teaser                   : # path of fallback teaser image, e.g. "/city.png"
+title                    : "Site Title"
+title_separator          : "WOO"
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : "https://joswoo.github.io"# the base hostname & protocol for your site e.g. 
+baseurl                  : "/OSX" # the subpath of your site, e.g. 
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -290,4 +290,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
