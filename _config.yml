@@ -18,11 +18,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "OSX"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "joswoo"
 description              : "Mac Setting"
 url                      : "https://joswoo.github.io"       # the base hostname & protocol for your site e.g. 
 baseurl                  :  ""                      # the subpath of your site, e.g. 
-repository               : "joswoo/joswoo.github.io"     # GitHub username/repo-name e.g. 
+repository               : "joswoo/OSX"     # GitHub username/repo-name e.g. 
 teaser                   : "/city.png"     # path of fallback teaser image, e.g. 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
