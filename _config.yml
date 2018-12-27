@@ -22,7 +22,7 @@ name                     : "Your Name"
 description              : "Mac Setting"
 url                      : "https://joswoo.github.io"       # the base hostname & protocol for your site e.g. 
 baseurl                  :  ""                      # the subpath of your site, e.g. 
-repository               : "mmistakes/minimal-mistakes"     # GitHub username/repo-name e.g. 
+repository               : "joswoo/joswoo.github.io"     # GitHub username/repo-name e.g. 
 teaser                   : "/city.png"     # path of fallback teaser image, e.g. 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
