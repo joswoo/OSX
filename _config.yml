@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "Mac Setting"
 title_separator          : "-"
 name                     : "joswoo"
-description              : "Osx termenal Setting"
+description              : "OSX termenal Setting"
 url                      : "https://joswoo.github.io"       # the base hostname & protocol for your site e.g. 
-# baseurl                  : "/OSX"                      # the subpath of your site, e.g. 
+baseurl                  : "/OSX"                      # the subpath of your site, e.g. 
 repository               : "joswoo/OSX"     # GitHub username/repo-name e.g. 
 teaser                   : "/city.png"     # path of fallback teaser image, e.g. 
 # breadcrumbs            : false # true, false (default)
