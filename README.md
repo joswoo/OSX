@@ -169,9 +169,9 @@ Symlink in vitrualenv
 ## TensorFlow
 - Install
 
-        $  sudo easy_install --upgrade pip2
+        $ sudo easy_install --upgrade pip2
 
-        $  sudo easy_install --upgrade pip3
+        $ sudo easy_install --upgrade pip3
 
         $ sudo easy_install --upgrade six
 
