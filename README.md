@@ -73,24 +73,38 @@ Upgrade pip
 
 Check the pip version
 
-        $ pip -V
+        $ pip -V 
+> pip x.x from /usr/local/lib/python2.7/site-packages/pip (python 2.7)
 
-        $ pip2 -V
+        $ pip2 -V 
+> pip x.x from /usr/local/lib/python2.7/site-packages/pip (python 2.7)
 
         $ pip3 -V
+> pip x.x from /usr/local/lib/python3.x/site-packages/pip (python 3.x)
         
+If you want to link pip to pip3
+
+        $ pip3 install --upgrade --force-reinstall pip
 
 ## Virtualenv
 
 https://beomi.github.io/2016/12/28/HowToSetup-Virtualenv-VirtualenvWrapper/
 
+Install
+
+        $ install virtualenv virtualenvwrapper
+        
+Make virtualenv
+        
         $ virtualenv -p python3 이름
         
         $ source 이름/bin/activate
         
-or
+Use VirtualenvWrapper
         
-        $ mkvirtualenv 이름
+        $ cd ~
+        
+        $ mkdir ~/.virtualenvs
         
 edit `.bashrc` or `.zshrc` 
         
@@ -104,10 +118,25 @@ export WORKON_HOME=~/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON="$(which python3)"  # Usage of python3
 source /usr/local/bin/virtualenvwrapper.sh
 ```
+Command VirtualenvWrapper
+
+        $ mkvirtualenv 이름
+        
+It is in the `~/.virtualenvs`
         
         $ workon 이름
         
-Auto workon > 맨 아래에 `alias 이름=". ~/이름/bin/activate"` 추가
+        $ rmvirtualenv 이름
+        
+Auto workon 
+
+edit `.bashrc` or `.zshrc` 
+        
+        $ vi ~/.zshrc
+
+add below code
+
+`alias 실행이름 = ". ~/이름/bin/activate"`
 
 ## Numpy
 
